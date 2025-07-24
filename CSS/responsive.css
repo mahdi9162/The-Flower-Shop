@@ -117,4 +117,20 @@
   .form .join-btn {
     padding: 12px 20px;
   }
+
+  /* Footer */
+  
+
+  .footer-contents {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  .footer-logo p {
+    margin-bottom: 20px;
+  }
+
+  .social-logos {
+    padding-bottom: 50px;
+  }
 }
