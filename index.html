@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAUGET - The Flower Shop</title>
     <!-- Google Font "Poppins" Link Is Here -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <!-- Font Awesome Link Is Here -->
@@ -13,12 +14,44 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <title>FAUGET - The Flower Shop</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css">
   </head>
-  
+
   <body>
-    <header></header>
+    <header class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <figure class="nav-logo"><img src="./Images/logo.png" alt="Nav Logo" /></figure>
+        <ul class="nav-links">
+          <li class="nav-list"><a href="">Home</a></li>
+          <li class="nav-list"><a href="">Shop</a></li>
+          <li class="nav-list"><a href="">About Us</a></li>
+          <li class="nav-cart">
+            <a href="">
+              <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+              Cart ($56)
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Banner -->
+      <section class="banner-sec section-gap">
+        <div class="banner-text">
+          <h1>
+            ALWAYS <span>FRESH <br> FLOWERS</span>
+          </h1>
+          <p>
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div class="banner-img">
+          <img src="./Images/hero-flower.png" alt="Hero Section Flower">
+        </div>
+      </section>
+    </header>
 
     <main></main>
 

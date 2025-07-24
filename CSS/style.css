@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F5F8FF;
+}
+
+/* CSS Variables */
+:root {
+    --brand-color: #E95A08;
+    --tittle-color: rgba(0, 0, 0, 0.5);
+    --other-color: rgba(107, 114, 128, 1);
+    --white-color: whitesmoke;
+
+    --hero-font: 4.062rem;
+    --sec-name-font: 3.125rem;
+    --tittle-font: 1.375;
+}
+
+/* Start Repeated Styles */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-gap {
+    margin: 120px auto;
+}
+
+
+
+
+/* End Repeated Styles */
+
+/* Header Start here */
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.875rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--other-color);
+    transition: all .35s ease;
+}
+
+.nav-links a:hover {
+    color: var(--brand-color);
+}
+
+.nav-links li {
+    transition: all .35s ease;
+}
+
+.nav-links li:hover {
+    transform:  scale(1.1);
+}
+
+/* Banner */
+
+.banner-sec {
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-text {
+    max-width: 570px;
+}
+
+.banner-text h1 {
+    font-size: var(--hero-font);
+}
+
+.banner-text span {
+    color: var(--brand-color);
+}
+
+.banner-text p {
+    font-size: var(--tittle-font);
+    color: var(--tittle-color);
+    margin-top: 13px;
+}
+
+.banner-img img {
+    width: 100%;
+}
