@@ -8,10 +8,12 @@
   .sec-head {
     font-size: 1.5rem;
     margin-bottom: 12px;
+    padding: 0 20px;
   }
 
   .sec-tittle {
     font-size: 14px;
+    padding: 0 20px;
   }
 
   /* Navbar */
@@ -68,4 +70,28 @@
     font-size: 14px;
   }
 
+  /* Latest Deals */
+  .deals-container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .deals-card-25,
+  .deals-card-60,
+  .deals-card-30 {
+    grid-column: 1;
+    padding: 60px;
+  }
+
+  .deals-card-25 h3,
+  .deals-card-60 h3,
+  .deals-card-30 h3 {
+    font-size: 1.2rem;
+  }
+
+  .deals-card-25 a,
+  .deals-card-60 a,
+  .deals-card-30 a {
+    font-size: 1.2rem;
+  }
 }
