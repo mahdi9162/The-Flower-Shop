@@ -6,7 +6,7 @@
 
   /* Repeated Styles */
   .sec-head {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 12px;
     padding: 0 20px;
   }
@@ -45,6 +45,10 @@
   /* Our Plants Section */
   .plants-sec {
     padding: 0 20px;
+  }
+
+  .plants-card p {
+    font-size: 1rem;
   }
 
   .plants-container {
@@ -93,5 +97,24 @@
   .deals-card-60 a,
   .deals-card-30 a {
     font-size: 1.2rem;
+  }
+
+  /* Join Section */
+  .join-sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .join-sec-content {
+    padding: 100px 30px;
+  }
+
+  .form input {
+    padding: 12px 30px;
+  }
+
+  .form .join-btn {
+    padding: 12px 20px;
   }
 }
