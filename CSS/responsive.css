@@ -1,32 +1,53 @@
 @media screen and (max-width: 576px) {
-   html, body {
+  html,
+  body {
     overflow-x: hidden;
-   }
-    /* Navbar */
-    .navbar {
-        padding-left: 1.25rem ;
-        padding-right: 1.25rem;
-    }
-    .nav-list {
-        display: none;
-    }
-    
-    /* Banner */
-    .banner-sec {
-        flex-direction: column-reverse;
-        margin-top: 1.75rem;
-    }
+  }
 
-    .banner-text h1 {
-        font-size: 1.5rem;
-        padding: 0 1.25rem;
-        margin-top: 1.75rem;
+  /* Repeated Styles */
+  .sec-head {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
 
-    }
+  .sec-tittle {
+    font-size: 14px;
+  }
 
-    .banner-text p {
-        font-size: 14px;
-        padding: 0 1.25rem;
-    }
+  /* Navbar */
+  .navbar {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .nav-list {
+    display: none;
+  }
 
+  /* Banner */
+  .banner-sec {
+    flex-direction: column-reverse;
+    margin-top: 1.75rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1.5rem;
+    padding: 0 1.25rem;
+    margin-top: 1.75rem;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+    padding: 0 1.25rem;
+  }
+
+  /* Our Plants Section */
+  .plants-sec {
+    padding: 0 20px;
+  }
+
+
+
+  .plants-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
