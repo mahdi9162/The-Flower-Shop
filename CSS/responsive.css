@@ -16,6 +16,10 @@
     padding: 0 20px;
   }
 
+  .section-gap {
+    margin: 50px auto;
+  }
+
   /* Navbar */
   .navbar {
     padding-left: 1.25rem;
@@ -45,6 +49,10 @@
   /* Our Plants Section */
   .plants-sec {
     padding: 0 20px;
+  }
+
+  .plants-card img {
+    height: 200px;
   }
 
   .plants-card p {
@@ -119,7 +127,7 @@
   }
 
   /* Footer */
-  
+
 
   .footer-contents {
     padding: 0 20px;
@@ -128,9 +136,5 @@
 
   .footer-logo p {
     margin-bottom: 20px;
-  }
-
-  .social-logos {
-    padding-bottom: 50px;
   }
 }

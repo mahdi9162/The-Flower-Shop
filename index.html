@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Images/icons8-flower-96.png" type="image/png" />
     <title>FAUGET - The Flower Shop</title>
     <!-- Google Fonts "Poppins" And "Playfair Display" Link Is Here -->
     <link
@@ -23,14 +24,14 @@
 
   <body>
     <!-- Header -->
-    <header class="container">
+    <header id="home" class="container view">
       <!-- Navbar -->
       <nav class="navbar">
         <figure class="nav-logo"><img src="./Images/logo.png" alt="Nav Logo" /></figure>
         <ul class="nav-links">
-          <li class="nav-list"><a href="">Home</a></li>
-          <li class="nav-list"><a href="">Shop</a></li>
-          <li class="nav-list"><a href="">About Us</a></li>
+          <li class="nav-list"><a href="#home">Home</a></li>
+          <li class="nav-list"><a href="#shop">Shop</a></li>
+          <li class="nav-list"><a href="#about-us">About Us</a></li>
           <li class="nav-cart">
             <a href="">
               <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
@@ -52,8 +53,8 @@
             </span>
           </h1>
           <p>
-            Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide
-            variety of fresh flowers that are perfect for any occasion.
+            Experience the art of floristry with our stunning, handcrafted bouquets. Each arrangement is passionately designed with the
+            freshest blooms to celebrate your special moments or brighten an ordinary day.
           </p>
         </div>
         <div class="banner-img">
@@ -65,86 +66,85 @@
     <!-- Main -->
     <main>
       <!-- Our Plants Section -->
-      <section class="plants-sec container section-gap">
+      <section id="shop" class="plants-sec container section-gap view">
         <h2 class="sec-head">
           <span class="sec-tittle-span">Our</span>
           Plants
         </h2>
         <p class="sec-tittle">
-          Indulge your senses with the beauty and fragrance of our fresh flower shop.
-          <br />
-          From classic roses to exotic blooms, we offer a wide variety of fresh.
+          Discover a garden of possibilities with our wide selection of fresh flowers and <br> lush plants. Each one is carefully selected to
+          bring lasting beauty to your home.
         </p>
 
         <div class="plants-container">
           <!-- Card 1 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Peony bouquet.jpg" alt="Peony Flower" />
+            <p>Peony Bouquet</p>
+            <p><strong>75 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 2 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Mixed Dahlia Bouquet.jpg" alt="Mixed Dahlia Flower" />
+            <p>Fiesta Dahlia</p>
+            <p><strong>65 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 3 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Orchid (2).jpg" alt="Orchid Flower" />
+            <p>Velvet Orchid</p>
+            <p><strong>85 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 4 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Protea.jpg" alt="Protea Flower" />
+            <p>King Protea</p>
+            <p><strong>95 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 5 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Anemone Bouquet.jpg" alt="Anemone Flower" />
+            <p>Gem Anemone</p>
+            <p><strong>55 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 6 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Hydrangea.jpg" alt="Hydrangea Flower" />
+            <p>Lush Hydrangea</p>
+            <p><strong>60 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 7 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Ranunculus Bouquet.jpg" alt="Ranunculus Flower" />
+            <p>Rose Ranunculus</p>
+            <p><strong>70 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
 
           <!-- Card 8 -->
           <div class="plants-card">
-            <img src="./Images/sample-flower-image.png" alt="Flower" />
-            <p>Lily Blossom</p>
-            <p><strong>20 USD</strong></p>
+            <img src="./Images/Tulip Bouquet.jpg" alt="Tulip Flower" />
+            <p>Elegant Tulip</p>
+            <p><strong>45 USD</strong></p>
             <button class="btn">ADD TO CART</button>
           </div>
         </div>
       </section>
 
       <!-- Plants Lover -->
-      <section class="plants-lover-sec container section-gap">
+      <section class="plants-lover-sec container section-gap view">
         <div class="plants-lover-img">
           <img src="./Images/flower-store.png" alt="Flower Store" />
           <div class="badge">
@@ -179,7 +179,7 @@
       </section>
 
       <!-- Latest Deals Section -->
-      <section class="deals-sec container section-gap">
+      <section class="deals-sec container section-gap view">
         <h2 class="sec-head">
           <span class="sec-tittle-span">Latest</span>
           Deals
@@ -210,7 +210,7 @@
       </section>
 
       <!-- Join Section -->
-      <section class="join-sec section-gap">
+      <section class="join-sec section-gap view">
         <div class="join-sec-content container">
           <h3 class="sec-head join-sec-head">Join the colorful Bunch</h3>
           <div class="form">
@@ -221,7 +221,7 @@
       </section>
     </main>
 
-    <footer class="container">
+    <footer id="about-us" class="container section-gap view">
       <div class="footer-contents">
         <div class="footer-logo">
           <img src="./Images/logo.png" alt="logo" />
@@ -251,12 +251,11 @@
         </div>
 
         <div class="social-logos">
-          <a href="#"><img src="./Images/icon-linkedin.png" alt="Linkedin Logo"></a>
-          <a href="#"><img src="./Images/icon-twitter.png" alt="Twitter Logo"></a>
-          <a href="#"><img src="./Images/icon-facebook.png" alt="Facebook Logo"></a>
-          <a href="#"><img src="./Images/icon-youtube.png" alt="Youtube Logo"></a>
+          <a href="#"><img src="./Images/icon-linkedin.png" alt="Linkedin Logo" /></a>
+          <a href="#"><img src="./Images/icon-twitter.png" alt="Twitter Logo" /></a>
+          <a href="#"><img src="./Images/icon-facebook.png" alt="Facebook Logo" /></a>
+          <a href="#"><img src="./Images/icon-youtube.png" alt="Youtube Logo" /></a>
         </div>
-
       </div>
     </footer>
   </body>
