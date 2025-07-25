@@ -1,9 +1,4 @@
 @media screen and (max-width: 576px) {
-  html,
-  body {
-    overflow-x: hidden;
-  }
-
   /* Repeated Styles */
   .sec-head {
     font-size: 1.4rem;
@@ -18,6 +13,11 @@
 
   .section-gap {
     margin: 50px auto;
+  }
+
+  .btn {
+    padding: 12px 0;
+    margin-top: 14px;
   }
 
   /* Navbar */
@@ -52,7 +52,7 @@
   }
 
   .plants-card img {
-    height: 200px;
+    height: 150px;
   }
 
   .plants-card p {
